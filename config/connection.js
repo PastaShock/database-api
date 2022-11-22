@@ -1,5 +1,5 @@
 const { connect, connection } = require('mongoose');
-const { exists } = require('../models/user');
+const { exists } = require('../models/users');
 
 connectionString = `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}`
 
